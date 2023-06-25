@@ -1,0 +1,30 @@
+.Personal {
+    display: flex;
+    div:first-child h4 {
+        margin-right: 5px;
+    }
+    div:first-child ul {
+        margin-bottom: 10px;
+    }
+    h4 {
+        margin-top: 0 !important;
+    }
+    div:last-child ul {
+        margin-bottom: 10px;
+    }
+}
+
+.Personal > div {
+    width: 50%;
+    display: block;
+    background-color: #ffffff;
+}
+
+.Personal ul {
+    padding-left: 10px;
+}
+
+.Personal li {
+    list-style: none;
+    text-align: left;
+}
